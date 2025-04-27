@@ -1,0 +1,57 @@
+{
+    "extensionName": {
+      "message": "Color-Card",
+      "description": "The name of the extension."
+    },
+    "extensionDescription": {
+      "message": "Displays a Material Design color palette, allowing users to quickly copy color values.",
+      "description": "Description shown in the Chrome Web Store and extensions page."
+    },
+    "tooltipHint": {
+      "message": "Click a color card to copy its value to the clipboard.",
+      "description": "Tooltip text for the hint button next to the title."
+    },
+    "hexLabel": {
+      "message": "HEX",
+      "description": "Label for the HEX color format toggle."
+    },
+    "rgbLabel": {
+      "message": "RGB",
+      "description": "Label for the RGB color format toggle."
+    },
+    "copiedToast": {
+      "message": "$format$ color value $value$ copied to clipboard.",
+      "description": "Toast message shown after copying a color value. Placeholders $format$ and $value$ will be replaced by the actual format and value.",
+      "placeholders": {
+        "format": {
+          "content": "$1",
+          "example": "HEX"
+        },
+        "value": {
+          "content": "$2",
+          "example": "#FFFFFF"
+        }
+      }
+    },
+    "copyFailedToast": {
+      "message": "Copy failed.",
+      "description": "Toast message shown if copying fails."
+    },
+     "colorRed": { "message": "Red" },
+     "colorPink": { "message": "Pink" },
+     "colorPurple": { "message": "Purple" },
+     "colorBlue": { "message": "Blue" },
+     "colorCyan": { "message": "Cyan" },
+     "colorGreen": { "message": "Green" },
+     "colorYellow": { "message": "Yellow" },
+     "colorOrange": { "message": "Orange" },
+     "colorBrown": { "message": "Brown" },
+     "colorGray": { "message": "Gray" },
+     "colorBlueGray": { "message": "Blue Gray" },
+     "colorWhite": { "message": "White" },
+     "colorBlack": { "message": "Black" },
+     "sourceInfo": {
+       "message": "Color values based on <a href='https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors' target='_blank'>Google Material Color 2</a>.",
+       "description": "Information about the color source with a link."
+     }
+  }

@@ -1,0 +1,57 @@
+{
+    "extensionName": {
+      "message": "Color-Card",
+      "description": "De naam van de extensie."
+    },
+    "extensionDescription": {
+      "message": "Toont een Material Design-kleurenpalet, waarmee gebruikers snel kleurwaarden kunnen kopiëren.",
+      "description": "Beschrijving getoond in de Chrome Web Store en extensiepagina."
+    },
+    "tooltipHint": {
+      "message": "Klik op een kleurenkaart om de waarde naar het klembord te kopiëren.",
+      "description": "Tooltiptekst voor de hintknop naast de titel."
+    },
+    "hexLabel": {
+      "message": "HEX",
+      "description": "Label voor de HEX-kleurformaat-schakelaar."
+    },
+    "rgbLabel": {
+      "message": "RGB",
+      "description": "Label voor de RGB-kleurformaat-schakelaar."
+    },
+    "copiedToast": {
+      "message": "$format$-kleurwaarde $value$ gekopieerd naar klembord.",
+      "description": "Toastbericht getoond na het kopiëren van een kleurwaarde. Plaatsaanduidingen $format$ en $value$ worden vervangen door het werkelijke formaat en de waarde.",
+      "placeholders": {
+        "format": {
+          "content": "$1",
+          "example": "HEX"
+        },
+        "value": {
+          "content": "$2",
+          "example": "#FFFFFF"
+        }
+      }
+    },
+    "copyFailedToast": {
+      "message": "Kopiëren mislukt.",
+      "description": "Toastbericht getoond als kopiëren mislukt."
+    },
+     "colorRed": { "message": "Rood" },
+     "colorPink": { "message": "Roze" },
+     "colorPurple": { "message": "Paars" },
+     "colorBlue": { "message": "Blauw" },
+     "colorCyan": { "message": "Cyaan" },
+     "colorGreen": { "message": "Groen" },
+     "colorYellow": { "message": "Geel" },
+     "colorOrange": { "message": "Oranje" },
+     "colorBrown": { "message": "Bruin" },
+     "colorGray": { "message": "Grijs" },
+     "colorBlueGray": { "message": "Blauwgrijs" },
+     "colorWhite": { "message": "Wit" },
+     "colorBlack": { "message": "Zwart" },
+     "sourceInfo": {
+       "message": "Kleurwaarden gebaseerd op <a href='https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors' target='_blank'>Google Material Color 2</a>.",
+       "description": "Informatie over de kleurbron met een link."
+     }
+  }

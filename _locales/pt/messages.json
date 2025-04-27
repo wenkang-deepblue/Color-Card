@@ -1,0 +1,51 @@
+{
+    "extensionName": {
+      "message": "Color-Card",
+      "description": "O nome da extensão."
+    },
+    "extensionDescription": {
+      "message": "Exibe uma paleta de cores Material Design e permite copiar rapidamente os valores das cores.",
+      "description": "Descrição mostrada na Chrome Web Store e na página de extensões."
+    },
+    "tooltipHint": {
+      "message": "Clique em uma amostra de cor para copiar seu valor para a área de transferência.",
+      "description": "Texto da dica de ferramenta para o botão de dica ao lado do título."
+    },
+    "hexLabel": {
+      "message": "HEX",
+      "description": "Rótulo para o seletor de formato de cor HEX."
+    },
+    "rgbLabel": {
+      "message": "RGB",
+      "description": "Rótulo para o seletor de formato de cor RGB."
+    },
+    "copiedToast": {
+      "message": "Valor de cor $format$ $value$ copiado para a área de transferência.",
+      "description": "Mensagem toast mostrada após copiar um valor de cor. Os espaços reservados $format$ e $value$ serão substituídos pelo formato e valor reais.",
+      "placeholders": {
+        "format": { "content": "$1", "example": "HEX" },
+        "value": { "content": "$2", "example": "#FFFFFF" }
+      }
+    },
+    "copyFailedToast": {
+      "message": "Falha na cópia.",
+      "description": "Mensagem toast mostrada se a cópia falhar."
+    },
+     "colorRed": { "message": "Vermelho" },
+     "colorPink": { "message": "Rosa" },
+     "colorPurple": { "message": "Roxo" },
+     "colorBlue": { "message": "Azul" },
+     "colorCyan": { "message": "Ciano" },
+     "colorGreen": { "message": "Verde" },
+     "colorYellow": { "message": "Amarelo" },
+     "colorOrange": { "message": "Laranja" },
+     "colorBrown": { "message": "Marrom" },
+     "colorGray": { "message": "Cinza" },
+     "colorBlueGray": { "message": "Cinza Azulado" },
+     "colorWhite": { "message": "Branco" },
+     "colorBlack": { "message": "Preto" },
+     "sourceInfo": {
+       "message": "Valores de cor baseados em <a href='https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors' target='_blank'>Google Material Color 2</a>.",
+       "description": "Informações sobre a origem da cor com um link."
+     }
+  }

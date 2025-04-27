@@ -1,0 +1,51 @@
+{
+    "extensionName": {
+      "message": "Color-Card",
+      "description": "拡張機能の名前。"
+    },
+    "extensionDescription": {
+      "message": "マテリアルデザインのカラーパレットを表示し、色の値をすばやくコピーできます。",
+      "description": "Chromeウェブストアや拡張機能ページに表示される説明。"
+    },
+    "tooltipHint": {
+      "message": "カラーカードをクリックして、色の値をクリップボードにコピーします。",
+      "description": "タイトル横のヒントボタンのツールチップテキスト。"
+    },
+    "hexLabel": {
+      "message": "HEX",
+      "description": "HEXカラー形式トグルのラベル。"
+    },
+    "rgbLabel": {
+      "message": "RGB",
+      "description": "RGBカラー形式トグルのラベル。"
+    },
+    "copiedToast": {
+      "message": "$format$ の色の値 $value$ をクリップボードにコピーしました。",
+      "description": "色の値をコピーした後に表示されるトーストメッセージ。プレースホルダー $format$ と $value$ は実際の形式と値に置き換えられます。",
+      "placeholders": {
+        "format": { "content": "$1", "example": "HEX" },
+        "value": { "content": "$2", "example": "#FFFFFF" }
+      }
+    },
+    "copyFailedToast": {
+      "message": "コピーに失敗しました。",
+      "description": "コピーに失敗した場合に表示されるトーストメッセージ。"
+    },
+     "colorRed": { "message": "レッド" },
+     "colorPink": { "message": "ピンク" },
+     "colorPurple": { "message": "パープル" },
+     "colorBlue": { "message": "ブルー" },
+     "colorCyan": { "message": "シアン" },
+     "colorGreen": { "message": "グリーン" },
+     "colorYellow": { "message": "イエロー" },
+     "colorOrange": { "message": "オレンジ" },
+     "colorBrown": { "message": "ブラウン" },
+     "colorGray": { "message": "グレー" },
+     "colorBlueGray": { "message": "ブルーグレー" },
+     "colorWhite": { "message": "ホワイト" },
+     "colorBlack": { "message": "ブラック" },
+     "sourceInfo": {
+        "message": "色の値は <a href='https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors' target='_blank'>Google Material Color 2</a> に基づいています。",
+        "description": "色の出典に関する情報とリンク。"
+    }
+  }

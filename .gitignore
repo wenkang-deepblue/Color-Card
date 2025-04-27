@@ -1,0 +1,11 @@
+color.json
+*.psd
+*_v0.*.*
+temp.js
+*.svg
+icon128.png
+comparation.js
+temp.js
+.DS_Store
+*.zip
+color_card*.png

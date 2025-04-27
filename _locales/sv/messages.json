@@ -1,0 +1,57 @@
+{
+    "extensionName": {
+      "message": "Color-Card",
+      "description": "Tilläggets namn."
+    },
+    "extensionDescription": {
+      "message": "Visar en Material Design-färgpalett, vilket gör att användare snabbt kan kopiera färgvärden.",
+      "description": "Beskrivning som visas i Chrome Web Store och på tilläggssidan."
+    },
+    "tooltipHint": {
+      "message": "Klicka på ett färgkort för att kopiera dess värde till urklipp.",
+      "description": "Tooltip-text för ledtrådsknappen bredvid titeln."
+    },
+    "hexLabel": {
+      "message": "HEX",
+      "description": "Etikett för HEX-färgformatväxeln."
+    },
+    "rgbLabel": {
+      "message": "RGB",
+      "description": "Etikett för RGB-färgformatväxeln."
+    },
+    "copiedToast": {
+      "message": "$format$-färgvärde $value$ kopierat till urklipp.",
+      "description": "Toast-meddelande som visas efter kopiering av ett färgvärde. Platshållarna $format$ och $value$ ersätts med det faktiska formatet och värdet.",
+      "placeholders": {
+        "format": {
+          "content": "$1",
+          "example": "HEX"
+        },
+        "value": {
+          "content": "$2",
+          "example": "#FFFFFF"
+        }
+      }
+    },
+    "copyFailedToast": {
+      "message": "Kopiering misslyckades.",
+      "description": "Toast-meddelande som visas om kopiering misslyckas."
+    },
+     "colorRed": { "message": "Röd" },
+     "colorPink": { "message": "Rosa" },
+     "colorPurple": { "message": "Lila" },
+     "colorBlue": { "message": "Blå" },
+     "colorCyan": { "message": "Cyan" },
+     "colorGreen": { "message": "Grön" },
+     "colorYellow": { "message": "Gul" },
+     "colorOrange": { "message": "Orange" },
+     "colorBrown": { "message": "Brun" },
+     "colorGray": { "message": "Grå" },
+     "colorBlueGray": { "message": "Blågrå" },
+     "colorWhite": { "message": "Vit" },
+     "colorBlack": { "message": "Svart" },
+     "sourceInfo": {
+       "message": "Färgvärden baserade på <a href='https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors' target='_blank'>Google Material Color 2</a>.",
+       "description": "Information om färgkällan med en länk."
+     }
+  }

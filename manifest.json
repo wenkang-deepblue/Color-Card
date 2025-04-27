@@ -1,0 +1,31 @@
+ {
+    "manifest_version": 3,
+    "name": "__MSG_extensionName__",
+    "version": "1.0",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
+    "permissions": [
+      "clipboardWrite"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": [ "fonts/*.woff2" ],
+        "use_dynamic_url": true
+      }
+    ]
+  }

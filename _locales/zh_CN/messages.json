@@ -1,0 +1,57 @@
+{
+    "extensionName": {
+      "message": "Color-Card",
+      "description": "扩展程序的名称。"
+    },
+    "extensionDescription": {
+      "message": "显示 Material Design 风格的调色板，方便用户快速复制颜色值。",
+      "description": "在 Chrome 网上应用店和扩展程序页面显示的描述。"
+    },
+    "tooltipHint": {
+      "message": "点击色卡，色值将被复制到剪贴板。",
+      "description": "标题旁边提示按钮的工具提示文本。"
+    },
+    "hexLabel": {
+      "message": "HEX",
+      "description": "HEX 颜色格式切换的标签。"
+    },
+    "rgbLabel": {
+      "message": "RGB",
+      "description": "RGB 颜色格式切换的标签。"
+    },
+    "copiedToast": {
+      "message": "$format$ 色值 $value$ 已复制到剪贴板",
+      "description": "复制颜色值后显示的 Toast 消息。占位符 $format$ 和 $value$ 将被实际格式和值替换。",
+      "placeholders": {
+        "format": {
+          "content": "$1",
+          "example": "HEX"
+        },
+        "value": {
+          "content": "$2",
+          "example": "#FFFFFF"
+        }
+      }
+    },
+    "copyFailedToast": {
+      "message": "复制失败",
+      "description": "复制失败时显示的 Toast 消息。"
+    },
+     "colorRed": { "message": "红色" },
+     "colorPink": { "message": "粉色" },
+     "colorPurple": { "message": "紫色" },
+     "colorBlue": { "message": "蓝色" },
+     "colorCyan": { "message": "青色" },
+     "colorGreen": { "message": "绿色" },
+     "colorYellow": { "message": "黄色" },
+     "colorOrange": { "message": "橙色" },
+     "colorBrown": { "message": "棕色" },
+     "colorGray": { "message": "灰色" },
+     "colorBlueGray": { "message": "蓝灰" },
+     "colorWhite": { "message": "白色" },
+     "colorBlack": { "message": "黑色" },
+     "sourceInfo": {
+       "message": "本插件色值取值于 <a href='https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors' target='_blank'>Google Material Color 2</a>。",
+       "description": "关于颜色来源的信息及链接。"
+     }
+  }

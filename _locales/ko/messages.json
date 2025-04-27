@@ -1,0 +1,51 @@
+{
+    "extensionName": {
+      "message": "Color-Card",
+      "description": "확장 프로그램의 이름입니다."
+    },
+    "extensionDescription": {
+      "message": "머티리얼 디자인 색상 팔레트를 표시하고 색상 값을 빠르게 복사할 수 있습니다.",
+      "description": "Chrome 웹 스토어 및 확장 프로그램 페이지에 표시되는 설명입니다."
+    },
+    "tooltipHint": {
+      "message": "색상 견본을 클릭하여 값을 클립보드에 복사합니다.",
+      "description": "제목 옆 힌트 버튼의 도구 설명 텍스트입니다."
+    },
+    "hexLabel": {
+      "message": "HEX",
+      "description": "HEX 색상 형식 토글 레이블입니다."
+    },
+    "rgbLabel": {
+      "message": "RGB",
+      "description": "RGB 색상 형식 토글 레이블입니다."
+    },
+    "copiedToast": {
+      "message": "$format$ 색상 값 $value$가 클립보드에 복사되었습니다.",
+      "description": "색상 값을 복사한 후 표시되는 토스트 메시지입니다. $format$ 및 $value$ 자리 표시자는 실제 형식과 값으로 대체됩니다.",
+      "placeholders": {
+        "format": { "content": "$1", "example": "HEX" },
+        "value": { "content": "$2", "example": "#FFFFFF" }
+      }
+    },
+    "copyFailedToast": {
+      "message": "복사 실패",
+      "description": "복사에 실패했을 때 표시되는 토스트 메시지입니다."
+    },
+     "colorRed": { "message": "빨강" },
+     "colorPink": { "message": "분홍" },
+     "colorPurple": { "message": "보라" },
+     "colorBlue": { "message": "파랑" },
+     "colorCyan": { "message": "청록" },
+     "colorGreen": { "message": "초록" },
+     "colorYellow": { "message": "노랑" },
+     "colorOrange": { "message": "주황" },
+     "colorBrown": { "message": "갈색" },
+     "colorGray": { "message": "회색" },
+     "colorBlueGray": { "message": "청회색" },
+     "colorWhite": { "message": "흰색" },
+     "colorBlack": { "message": "검정" },
+     "sourceInfo": {
+       "message": "색상 값은 <a href='https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors' target='_blank'>Google Material Color 2</a>를 기반으로 합니다.",
+       "description": "색상 출처 정보 및 링크."
+     }
+  }

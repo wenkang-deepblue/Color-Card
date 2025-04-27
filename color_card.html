@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color-Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="color_card.css">
+</head>
+<body>
+    <div class="theme-switcher-container">
+        <div class="segmented-control">
+            <input type="radio" name="theme-toggle" value="light" id="theme-light"/>
+            <label for="theme-light" class="segmented-control__1">
+                 <svg id="icon-light" data-name="layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 44 44">
+                   <defs><style></style></defs>
+                   <path class="st0" d="M22,29c1.93,0,3.58-.68,4.95-2.05s2.05-3.02,2.05-4.95-.68-3.58-2.05-4.95-3.02-2.05-4.95-2.05-3.58.68-4.95,2.05-2.05,3.02-2.05,4.95.68,3.58,2.05,4.95,3.02,2.05,4.95,2.05ZM22,32c-2.77,0-5.13-.98-7.08-2.93s-2.93-4.31-2.93-7.08.98-5.13,2.93-7.08,4.31-2.93,7.08-2.93,5.13.98,7.08,2.93,2.93,4.31,2.93,7.08-.98,5.13-2.93,7.08-4.31,2.93-7.08,2.93ZM8,23.5H0v-3h8v3ZM44,23.5h-8v-3h8v3ZM20.5,8V0h3v8h-3ZM20.5,44v-8h3v8h-3ZM11.1,13.1l-5-4.85,2.15-2.2,4.8,5-1.95,2.05ZM35.8,37.9l-4.9-5,2.05-2.05,4.95,4.9-2.1,2.15ZM30.85,11.05l4.9-4.95,2.2,2.1-4.95,4.9-2.15-2.05ZM6.1,35.75l4.95-4.9,2.1,2.1-4.9,4.95-2.15-2.15Z"/>
+                 </svg>
+            </label>
+
+            <input type="radio" name="theme-toggle" value="dark" id="theme-dark" />
+            <label for="theme-dark" class="segmented-control__2">
+                 <svg id="icon-dark" data-name="layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 36 36">
+                    <defs><style></style></defs>
+                    <path class="st0" d="M18,36c-5,0-9.25-1.75-12.75-5.25S0,23,0,18,1.75,8.75,5.25,5.25,13,0,18,0c.27,0,.55,0,.85.03s.68.04,1.15.08c-1.2,1.07-2.13,2.38-2.8,3.95s-1,3.22-1,4.95c0,3,1.05,5.55,3.15,7.65s4.65,3.15,7.65,3.15c1.73,0,3.38-.31,4.95-.93s2.88-1.48,3.95-2.58c.03.4.06.73.08.98s.03.49.03.73c0,5-1.75,9.25-5.25,12.75s-7.75,5.25-12.75,5.25ZM18,33c3.63,0,6.8-1.13,9.5-3.38s4.38-4.89,5.05-7.93c-.83.37-1.73.64-2.68.83-.96.18-1.91.28-2.87.28-3.82,0-7.08-1.34-9.77-4.03-2.69-2.69-4.03-5.94-4.03-9.77,0-.8.08-1.66.25-2.58s.47-1.96.9-3.13c-3.27.9-5.98,2.73-8.13,5.48s-3.23,5.83-3.23,9.23c0,4.17,1.46,7.71,4.38,10.63,2.92,2.92,6.46,4.38,10.63,4.38Z"/>
+                 </svg>
+            </label>
+
+            <input type="radio" name="theme-toggle" value="system" id="theme-system" checked/>
+            <label for="theme-system" class="segmented-control__3">
+                 <svg id="icon-system" data-name="layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 48 34">
+                   <defs><style></style></defs>
+                   <path class="st0" d="M0,34v-3h7.05v-2.1c-.8,0-1.5-.3-2.1-.9s-.9-1.3-.9-2.1V3c0-.8.3-1.5.9-2.1s1.3-.9,2.1-.9h33.9c.8,0,1.5.3,2.1.9s.9,1.3.9,2.1v22.9c0,.8-.3,1.5-.9,2.1s-1.3.9-2.1.9v2.1h7.05v3H0ZM7.05,25.9h33.9V3H7.05v22.9ZM7.05,25.9V3v22.9Z"/>
+                 </svg>
+            </label>
+
+            <div class="segmented-control__color"></div>
+        </div>
+    </div>
+    <h1 id="app-title">
+        <img src="images/icon48.png" alt="App Icon" id="app-icon">&nbsp;&nbsp;Color-Card
+        <span class="hint-button" data-i18n-title="tooltipHint">?</span>
+    </h1>
+    <div id="controls">
+        <span class="format-label-text">HEX</span>
+        <label class="toggle-switch">
+            <input type="checkbox" id="format-toggle">
+            <span class="slider round"></span>
+        </label>
+        <span class="format-label-text">RGB</span>
+    </div>
+    <div id="palette-container">
+    </div>
+    <div id="source-info" data-i18n-html="sourceInfo" style="text-align: center; margin-top: 15px; font-size: 12px;">
+    </div>
+    <div id="toast" class="toast"></div>
+    <script src="color_card.js"></script>
+    <script src="i18n.js"></script>
+</body>
+</html>
