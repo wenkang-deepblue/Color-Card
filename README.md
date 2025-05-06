@@ -22,7 +22,7 @@
 5.  The Color-Card extension icon should appear in your browser toolbar. Click it to open the Color-Card tab.
 
 ### From Chrome Web Store
-*   Coming soon...
+*   [https://chromewebstore.google.com/detail/color-card/ggnlibimkfodncglaonodelcplopfcnc](https://chromewebstore.google.com/detail/color-card/ggnlibimkfodncglaonodelcplopfcnc)
 
 ## Usage
 

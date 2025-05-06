@@ -1,6 +1,6 @@
 # Privacy Policy for Color-Card Chrome Extension
 
-**Effective Date:** [April 27, 2025]
+**Effective Date:** May 6, 2025
 
 Thank you for using Color-Card ("the Extension"), a Chrome extension designed to provide easy access to Material Design colors and allow copying their values. Your privacy is important. This Privacy Policy explains what information the Extension handles and how it's stored.
 
